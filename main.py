@@ -4,5 +4,6 @@ class Produto:
         self.preco = preco
         self.peso = peso
 
+produto = Produto('Massa de pizza', 5, 400)
 quantidade = int(input('Informe a quantidade: '))
 print(quantidade)
