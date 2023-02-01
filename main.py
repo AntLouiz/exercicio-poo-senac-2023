@@ -10,4 +10,3 @@ class Produto:
 produto = Produto('Massa de pizza', 5, 400)
 produto.exibir()
 quantidade = int(input('Informe a quantidade: '))
-print(quantidade)
