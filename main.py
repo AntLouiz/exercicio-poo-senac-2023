@@ -12,3 +12,4 @@ produto.exibir()
 quantidade = int(input('Informe a quantidade: '))
 print(f'O valor total é: R$ {quantidade * produto.preco}')
 
+
