@@ -1,3 +1,7 @@
+class Vendedor:
+    def __init__(self,nome,telefone):
+        self.nome = nome
+        self.telefone = telefone
 class Produto:
     def __init__(self, nome, preco, peso):
         self.nome = nome
@@ -6,6 +10,9 @@ class Produto:
 
     def exibir(self, indice = 0):
         print(f'{indice} === Nome: {self.nome} - Preço: {self.preco}')
+
+input(f"informe seu nome: ")
+input (f"informe seu telefone: ")
 
 produto_um = Produto('Massa de pizza', 5, 400)
 produto_dois = Produto('Tomate', 2, 100)
