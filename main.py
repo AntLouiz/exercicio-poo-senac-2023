@@ -4,8 +4,7 @@ class Produto:
         self.preco = preco
         self.peso = peso
 
-    def exibir(self, indice = 0):
-        print(f'{indice} === Nome: {self.nome} - Preço: {self.preco}')
+
 
 produto_um = Produto('Massa de pizza', 5, 400)
 produto_dois = Produto('Tomate', 2, 100)
