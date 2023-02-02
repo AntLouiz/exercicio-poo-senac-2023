@@ -22,3 +22,4 @@ else:
     produto = produtos[indice_selecionado]
     quantidade = int(input('Informe a quantidade: '))
     print(f'O valor total é: R$ {quantidade * produto.preco}')
+    print("Volte sempre")
