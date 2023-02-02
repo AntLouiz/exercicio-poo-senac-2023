@@ -9,8 +9,9 @@ class Produto:
 
 produto_um = Produto('Massa de pizza', 5, 400)
 produto_dois = Produto('Tomate', 2, 100)
+produto_tres = Produto("manga", 4, 200)
 
-produtos = [produto_um, produto_dois]
+produtos = [produto_um, produto_dois, produto_tres]
 for produto in produtos:
     indice = produtos.index(produto)
     produto.exibir(indice)
@@ -22,3 +23,4 @@ else:
     produto = produtos[indice_selecionado]
     quantidade = int(input('Informe a quantidade: '))
     print(f'O valor total é: R$ {quantidade * produto.preco}')
+
